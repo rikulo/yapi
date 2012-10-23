@@ -1,6 +1,6 @@
 #Rikulo YAPI
 
-[Rikulo YAPI](http://rikulo.org) is a Dart bridge implementation to 
+[Rikulo YAPI](http://rikulo.org) is a Dart bridge to 
 those frequently used on-line JavaScript services provided by Yahoo Inc. 
 
 * [Home](http://rikulo.org)
