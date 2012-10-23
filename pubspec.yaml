@@ -1,0 +1,14 @@
+name: rikulo_yapi
+version: 0.5.0
+description: >
+  Rikulo YAPI is a bridge implementation to access those frequently used on-line
+   JavaScript services provided by Yahoo and others.
+authors:
+- Henri Chen <henrichen@rikulo.org>
+homepage: http://rikulo.org
+dependencies:
+  rikulo_commons:
+    git: git://github.com/rikulo/rikulo-commons.git
+  rikulo_gapi:
+    git: git://github.com/rikulo/rikulo-gapi.git
+  js :
