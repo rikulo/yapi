@@ -55,7 +55,7 @@ class YWeather {
     Future<Map> feed = _feeder.loadFeedInfo();
 
     return feed.chain((Map result) {
-      Map channel = result != null ? result["channel"] : null;
+      Map channel = result != null ? result["rss"]["channel"] : null;
       if (channel != null) {
         //check if the woeid correct
         String ttl = channel["ttl"];
