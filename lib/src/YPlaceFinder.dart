@@ -2,14 +2,19 @@
 //History: Wed, Jun 20, 2012  05:22:36 PM
 // Author: hernichen
 
-/** Singleton YPlaceFinder */
-YPlaceFinder placefinder = new YPlaceFinder();
+
+/** Singleton Yahoo PlaceFinder */
+YPlaceFinder yPlaceFinder = new YPlaceFinder._internal();
 
 /**
  * Bridge Dart to Yahoo PlaceFinder API; see http://developer.yahoo.com/geo/placefinder/ for details.
  */
 class YPlaceFinder {
   const String _BASE_URI = "http://where.yahooapis.com/geocode";
+
+  factory YPlaceFinder() => yPlaceFinder;
+
+  YPlaceFinder._internal(){}
 
   /** Load geo information per the specified [location] parameters in a Map via
    * returned Future.then() function; see
