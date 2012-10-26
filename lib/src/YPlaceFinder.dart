@@ -7,7 +7,8 @@
 YPlaceFinder yPlaceFinder = new YPlaceFinder._internal();
 
 /**
- * Bridge Dart to Yahoo PlaceFinder API; see http://developer.yahoo.com/geo/placefinder/ for details.
+ * Bridge Dart to Yahoo PlaceFinder API;
+ * see <http://developer.yahoo.com/geo/placefinder/> for details.
  */
 class YPlaceFinder {
   const String _BASE_URI = "http://where.yahooapis.com/geocode";
@@ -17,7 +18,7 @@ class YPlaceFinder {
   YPlaceFinder._internal(){}
 
   /** Load geo information per the specified [location] parameters in a Map via
-   * returned Future.then() function; see
+   * returned Future.then((Map result){...}) method; see
    * <http://developer.yahoo.com/geo/placefinder/guide/responses.html> for details.
    *
    * + [locations] location parameter; see <http://developer.yahoo.com/geo/placefinder/guide/requests.html> for details.

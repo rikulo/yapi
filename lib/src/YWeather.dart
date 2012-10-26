@@ -32,8 +32,8 @@ class YWeather {
     _unit = unit;
   }
 
-  /** Load Weather information in a Map via Future.then(Map) method.
-   * See <http://developer.yahoo.com/weather/> for details.
+  /** Load Weather information in a Map via Future.then((Map result){...})
+   * method. See <http://developer.yahoo.com/weather/> for details.
    *
    * Note that YWeather will return you the cached weather information if
    * the information is not expired yet unless you force it to re-load from
