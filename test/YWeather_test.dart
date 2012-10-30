@@ -1,4 +1,5 @@
-import 'package:rikulo_yapi/rikulo_yapi.dart';
+import 'package:rikulo_yapi/yplacefinder.dart';
+import 'package:rikulo_yapi/yweather.dart';
 
 void main() {
   yPlaceFinder.loadGeoInfo({'location' : 'San+Francisco,+CA'})
