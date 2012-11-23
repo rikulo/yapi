@@ -5,9 +5,9 @@ those frequently used on-line JavaScript services provided by Yahoo Inc.
 
 * [Home](http://rikulo.org)
 * [Documentation](http://docs.rikulo.org)
-* [API Reference](http://api.rikulo.org/rikulo-yapi/latest)
+* [API Reference](http://api.rikulo.org/yapi/latest)
 * [Discussion](http://stackoverflow.com/questions/tagged/rikulo)
-* [Issues](https://github.com/rikulo/rikulo-yapi/issues)
+* [Issues](https://github.com/rikulo/yapi/issues)
 
 Rikulo YAPI is distributed under the Apache 2.0 License.
 
@@ -28,7 +28,7 @@ To install stuff that is still in development, add this to your `pubspec.yam`:
 
     dependencies:
       rikulo_yapi:
-        git: git://github.com/rikulo/rikulo-yapi.git
+        git: git://github.com/rikulo/yapi.git
 
 For more information, please refer to [Pub: Dependencies](http://pub.dartlang.org/doc/pubspec.html#dependencies).
 
